@@ -3,7 +3,7 @@ const resources = [
         title: "Animals Worksheet",
         subject: "Inglés",
         grade: "Primaria",
-        file: "resources/vocabularo a1-a2/animals.pdf"
+        file: "resources/vocabulario a1-a2/animals.pdf"
     },
     {
         title: "Lectura Comprensiva",
