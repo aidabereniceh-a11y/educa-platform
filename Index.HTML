@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>EducaPro | Recursos Didácticos</title>
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+
+<header>
+    <h1>EducaPro</h1>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Recursos</a>
+        <a href="#">Planeaciones NEM</a>
+        <a href="#">Inglés</a>
+        <a href="#">Español</a>
+    </nav>
+</header>
+
+<section class="hero">
+    <h2>Recursos educativos listos para usar</h2>
+    <p>Materiales para docentes de la Nueva Escuela Mexicana</p>
+    <input type="text" id="search" placeholder="Buscar recursos...">
+</section>
+
+<section class="filters">
+    <select id="gradeFilter">
+        <option value="">Grado</option>
+        <option>Preescolar</option>
+        <option>Primaria</option>
+        <option>Secundaria</option>
+    </select>
+
+    <select id="subjectFilter">
+        <option value="">Materia</option>
+        <option>Inglés</option>
+        <option>Español</option>
+    </select>
+</section>
+
+<section id="resources" class="grid"></section>
+
+<footer>
+    <p>© 2026 EducaPro - Plataforma educativa</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
